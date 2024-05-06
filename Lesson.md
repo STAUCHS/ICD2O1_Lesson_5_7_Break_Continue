@@ -1,5 +1,5 @@
 # 5.7 Break and Continue
-Sometimes checking the condition at the top of the `while` loop isn't the most effective strategy.
+Sometimes checking the condition after the entire `while` loop runs isn't the most effective strategy. What if we wanted to go back to the beginning of the loop while we're in the middle of it? Or if we wanted to stop a loop if a certain condition occurred? This is where `break` and `continue` come in handy.
 
 ## Break
 To better understand what `break` does, let's take a loop at the guessing game program we created from the previous Lesson. Here is a reminder of what that looked like:
